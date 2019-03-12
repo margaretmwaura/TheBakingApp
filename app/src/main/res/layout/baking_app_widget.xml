@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#09C"
+    android:background="#FFFF"
     android:orientation="vertical"
     android:id="@+id/containerLayout"
     android:padding="8dp">
@@ -53,7 +53,7 @@
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/image"
+        android:src="@drawable/ic_cake_black_24dp"
         android:id="@+id/appwidget_image"
         android:layout_below="@id/appwidget_head_text"
         android:layout_marginLeft="20dp"

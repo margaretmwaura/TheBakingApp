@@ -142,25 +142,7 @@ public class Details extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-//                if(count <= (ingredientList.size()-1))
-//                {
-//                    Log.d("Next", "Moving to the next one");
-//                    count = count + 1;
-//                    Bundle bundleReplace = new Bundle();
-//                    bundleReplace.putParcelable("TransferRecipe", recipe);
-//                    bundleReplace.putInt("TheCount", count);
-//
-////                    //                    Create a new fragment instance for the ingredients
-////                    IngredientsFragment ingredientsFragment1 = new IngredientsFragment();
-////                    ingredientsFragment1.setArguments(bundleReplace);
-////                    fragmentManager.beginTransaction()
-////                            .replace(R.id.ingredients, ingredientsFragment1)
-////                            .commit();
-//                }
-//                else
-//                    {
-//                        Toast.makeText(getApplicationContext(),"There is no ingredient for that recipe",Toast.LENGTH_LONG).show();
-//                }
+
 
                 if(count <= (stepList.size() - 1))
                 {
