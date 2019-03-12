@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/main_label"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="The Ingredients"
+            android:layout_height="35dp" />
+        <TextView
+            android:layout_below="@+id/main_label"
+            android:layout_width="match_parent"
+            android:id="@+id/description_label_textView"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="@string/descritpion_ingredients"
+            android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/description_label_textView"
+        android:layout_width="match_parent"
+        android:id="@+id/ingredientRecyclerView"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:id="@+id/steps_label"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="The Steps"
+            android:layout_below="@+id/ingredientRecyclerView"
+            android:layout_height="35dp" />
+        <TextView
+            android:layout_below="@+id/steps_label"
+            android:layout_width="match_parent"
+            android:id="@+id/steps_description"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="@string/descritpion_steps"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/steps_description"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/stepsTiitleRecyclerView"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,133 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#09C"
+    android:orientation="vertical"
+    android:id="@+id/containerLayout"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/appwidget_head_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#09C"
+            android:text="TheBakingApp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/appwidget_recipe_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#09C"
+            android:text="RecipeName"
+            android:layout_marginLeft="100dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#09C"
+    android:padding="8dp">
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/image"
+        android:id="@+id/appwidget_image"
+        android:layout_below="@id/appwidget_head_text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#09C"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/appwidget_steps_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#09C"
+            android:text="Steps count"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/appwidget_ingredients_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#09C"
+            android:src="@drawable/image"
+            android:text="Ingredients count"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:layout_below="@id/appwidget_steps_label"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#09C"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/appwidget_steps_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#09C"
+            android:text="2"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/appwidget_ingredients_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#09C"
+            android:src="@drawable/image"
+            android:text="6"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:layout_below="@id/appwidget_steps_count"/>
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

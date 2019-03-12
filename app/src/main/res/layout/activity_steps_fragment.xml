@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StepsFragment">
+
+
+    <!--LinearLyaout for the Steps POJO-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:layout_width="match_parent"
+        android:id="@+id/stepVideo"
+        android:layout_height="240dp">
+
+    </com.google.android.exoplayer2.ui.SimpleExoPlayerView>
+
+    <LinearLayout
+        android:layout_below="@+id/stepVideo"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:id="@+id/short_description_label"
+        android:text="Description"
+        android:textStyle="italic|bold"
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:id="@+id/description"
+       android:layout_height="wrap_content" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:id="@+id/description_label"
+        android:text="ShortDescription"
+        android:textStyle="italic|bold"
+        android:textSize="15dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/short_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+
+    <!--This is the layout for the ingredients POJO-->
+
+
+
+
+</ScrollView>
