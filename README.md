@@ -8,6 +8,7 @@ and also there is a list of steps pertaining the recipe. The steps are meant to 
 1) How to create layouts for both tablet mode and phone mode
 2) Playing videos using SimpleExoPlayer
 3) Adding a widget for an app
+4) Writing android unit tests with Espresso
 
 ## Libraries used
 - Retrofit
